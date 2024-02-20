@@ -1,0 +1,37 @@
+name: faker_fram
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  gap: ^3.0.1
+  infinite_scroll_pagination: ^4.0.0
+  json_annotation: ^4.8.1
+  retrofit: ^4.1.0
+  logger: any #for logging purpose
+  app_domain:
+    path: ../app_domain
+  app_data:
+    path: ../app_data
+  auto_route: ^7.8.4
+  flutter_bloc: ^8.1.4
+  injectable: ^2.3.2
+  get_it: ^7.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: any
+  auto_route_generator: ^7.3.2
+  retrofit_generator: ">=7.0.0 <8.0.0"
+  injectable_generator: ^2.4.1
+
+flutter:
+  uses-material-design: true
